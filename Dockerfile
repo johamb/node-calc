@@ -1,12 +1,12 @@
 FROM node:current-buster-slim
 
-WORKDIR /app
+WORKDIR /server
 
-COPY ./app.js /app/
-COPY ./package*.json /app/
+COPY ./server.js /server/
+COPY ./package*.json /server/
 
 RUN npm install
 
 EXPOSE 3000
 
-CMD ["node", "app.js"]
+CMD ["node", "server.js"]

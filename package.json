@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "description": "Calculator backend",
     "author": "joham <mail@joham.dev>",
-    "main": "app.js",
+    "main": "server.js",
     "scripts": {
-      "start": "node app.js"
+      "start": "node server.js"
     },
     "dependencies": {
       "express": "^4.16.1"
